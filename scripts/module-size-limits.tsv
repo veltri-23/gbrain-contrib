@@ -8,12 +8,12 @@ src/core/operations.ts	303	ratchet	peel target: containment sprint C4-C7
 src/core/postgres-engine.ts	5816	ratchet	peel target: containment sprint C15; grown v0.46.11.0 five-issue wave + retrieval wave
 src/core/pglite-engine.ts	5859	ratchet	peel target: containment sprint C15; grown v0.46.11.0 five-issue wave + retrieval wave + #4284 honest close bound/watchdog + its review-fix batch
 src/core/migrate.ts	668	region-exempt	append-only MIGRATIONS array grows freely; runner logic is ratcheted
-src/commands/sync.ts	4300	ratchet	peel target: containment sprint C13-C14; grown v0.46.11.0 five-issue wave
+src/commands/sync.ts	4311	ratchet	peel target: containment sprint C13-C14; grown v0.46.11.0 five-issue wave + v0.46 github-source sync branch
 src/core/ai/gateway.ts	4428	ratchet	watchlist; merged: dream-wave turn permits + key-aware effective-model reconfigure + env-only worker refresh + discovery endpoint-trust docstring
 src/cli.ts	3482	ratchet	watchlist; merged unions: cathedral-5 compile-context wiring + gap-closure thin-client routing + cathedral-6 register guards + sources self-help
 src/core/cycle.ts	3080	ratchet	grown v0.46.20.0 phase-boundary split (resolveCyclePhases + normalizeQueuedSourcePhases + deriveStatus exclusion filter)
-src/commands/serve-http.ts	2978	ratchet	grown cathedral-6 multi-agent wave (admin register route composes registerScopedClient in one tx under the name advisory lock; ttl validation + brain_too_old preflight) + chennai no-grant federated scope
-src/commands/jobs.ts	3015	ratchet	merged: v0.46.20.0 queue-boundary phase normalization + facts-absorb refresh/retry conversion
+src/commands/serve-http.ts	2995	ratchet	grown cathedral-6 multi-agent wave (admin register route composes registerScopedClient in one tx under the name advisory lock; ttl validation + brain_too_old preflight) + chennai no-grant federated scope + v0.46 github itemFlow dispatch (bulk webhook machinery moved to src/core/github-webhook.ts)
+src/commands/jobs.ts	3027	ratchet	merged: v0.46.20.0 queue-boundary phase normalization + facts-absorb refresh/retry conversion + v0.46 github_item webhook job forwarding
 src/core/search/hybrid.ts	2500	ratchet
 src/core/engine.ts	2345	ratchet
 src/commands/autopilot.ts	2301	ratchet
@@ -30,6 +30,6 @@ src/commands/integrations.ts	1675	ratchet
 src/core/minions/handlers/subagent.ts	1818	ratchet	merged: master v131 settle rework + dream-wave C5 peel + C6 accounting + C7 lease heartbeats/lost-lease aborts + C9 oneshot dispatch + adversarial fix batches
 src/commands/bootstrap.ts	1923	ratchet	grandfathered at merge (grew past the 1500 cap on master)
 src/core/minions/worker.ts	1560	ratchet	grandfathered at merge (grew past the 1500 cap on master, #4170); grown v0.46.11.0 five-issue wave
-src/commands/sources.ts	1676	ratchet
+src/commands/sources.ts	1790	ratchet	grown v0.46 github source kind: sources add --kind github (token-env/handle/scope/repos/dir/no-involvement/app) + webhook set for github-kind multi-repo + repo-casing normalize
 src/core/bootstrap/harness.ts	1947	ratchet
 src/commands/hook.ts	1550	ratchet	cathedral-5 heartbeat extraction offsets part of the BrainBench-seam growth

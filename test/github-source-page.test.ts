@@ -22,7 +22,7 @@ import {
   AppTokenProvider,
   type GitHubItemData,
 } from '../src/core/github-source.ts';
-import { extractGitHubItemRef } from '../src/commands/serve-http.ts';
+import { extractGitHubItemRef } from '../src/core/github-webhook.ts';
 import { GitHubClient } from '../src/core/github-source.ts';
 
 function baseItemData(overrides: Partial<GitHubItemData> = {}): GitHubItemData {
